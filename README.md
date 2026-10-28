@@ -1,9 +1,10 @@
-
-# 🧠 AI Sentiment Analyzer
+﻿
+@'
+# ðŸ§  AI Sentiment Analyzer
 
 A beginner-friendly Natural Language Processing (NLP) project that classifies text into **Positive, Negative, or Neutral** sentiments using Machine Learning.
 
-## 🚀 Features
+## ðŸš€ Features
 
 - Classifies text into three sentiment categories
 - Interactive web application using Streamlit
@@ -12,7 +13,7 @@ A beginner-friendly Natural Language Processing (NLP) project that classifies te
 - Displays predicted sentiment and model confidence
 - Evaluates the model using classification metrics
 
-## 🛠️ Technologies Used
+## ðŸ› ï¸ Technologies Used
 
 - Python
 - Pandas
@@ -20,14 +21,15 @@ A beginner-friendly Natural Language Processing (NLP) project that classifies te
 - Streamlit
 - Joblib
 
-## 📁 Project Structure
+## ðŸ“ Project Structure
 
 ```text
 ai-sentiment-analyzer/
-├── app.py
-├── train_model.py
-├── dataset.csv
-├── sentiment_model.pkl
-├── requirements.txt
-├── README.md
-└── .gitignore
+â”œâ”€â”€ app.py
+â”œâ”€â”€ train_model.py
+â”œâ”€â”€ dataset.csv
+â”œâ”€â”€ sentiment_model.pkl
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ README.md
+â””â”€â”€ .gitignore
+
