@@ -1,0 +1,46 @@
+﻿text,label
+"I love this product",positive
+"This is absolutely amazing",positive
+"I am very happy with the service",positive
+"What a wonderful experience",positive
+"The quality is excellent",positive
+"I really enjoyed this",positive
+"This product works perfectly",positive
+"I am satisfied with my purchase",positive
+"The customer service was fantastic",positive
+"I highly recommend this",positive
+"This is the best thing I bought",positive
+"The experience was great",positive
+"I feel wonderful today",positive
+"This is a fantastic application",positive
+"I am extremely pleased",positive
+"I hate this product",negative
+"This is absolutely terrible",negative
+"I am very disappointed",negative
+"What a horrible experience",negative
+"The quality is very poor",negative
+"I really dislike this",negative
+"This product does not work",negative
+"I regret buying this",negative
+"The customer service was awful",negative
+"I would not recommend this",negative
+"This is the worst thing I bought",negative
+"The experience was bad",negative
+"I feel unhappy today",negative
+"This application is useless",negative
+"I am extremely frustrated",negative
+"Hi",neutral
+"Hello",neutral
+"Good morning",neutral
+"Good evening",neutral
+"How are you",neutral
+"My name is John",neutral
+"I am going to school",neutral
+"The meeting starts at nine",neutral
+"Today is Monday",neutral
+"I have a blue bag",neutral
+"The book is on the table",neutral
+"Please open the door",neutral
+"The weather is cloudy",neutral
+"I am reading a book",neutral
+"This is a computer",neutral
