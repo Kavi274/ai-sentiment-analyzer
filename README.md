@@ -1,35 +1,69 @@
-﻿
-@'
-# ðŸ§  AI Sentiment Analyzer
+# 🧠 AI Sentiment Analyzer
 
-A beginner-friendly Natural Language Processing (NLP) project that classifies text into **Positive, Negative, or Neutral** sentiments using Machine Learning.
+### Machine Learning-Based Sentiment Classification with Python & Streamlit
 
-## ðŸš€ Features
+A beginner-friendly Natural Language Processing (NLP) application that analyzes text and predicts whether the sentiment is **Positive 😊**, **Negative 😞**, or **Neutral 😐**.
 
-- Classifies text into three sentiment categories
-- Interactive web application using Streamlit
-- TF-IDF text feature extraction
-- Logistic Regression classification
-- Displays predicted sentiment and model confidence
-- Evaluates the model using classification metrics
+This project demonstrates a complete machine learning workflow, including text preprocessing, TF-IDF feature extraction, model training, sentiment prediction, and deployment through an interactive Streamlit web interface.
 
-## ðŸ› ï¸ Technologies Used
+---
 
-- Python
-- Pandas
-- Scikit-learn
-- Streamlit
-- Joblib
+## 🚀 Features
 
-## ðŸ“ Project Structure
+- 📝 Classifies user-entered text into **Positive, Negative, or Neutral**
+- 🤖 Uses **Logistic Regression** for sentiment classification
+- 🔤 Converts text into numerical features using **TF-IDF Vectorization**
+- 📊 Provides sentiment prediction probabilities
+- 🌐 Interactive web interface built with **Streamlit**
+- 💾 Saves the trained machine learning model using **Pickle**
+- 🧪 Includes automated unit tests for model validation
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Main programming language |
+| Scikit-learn | Machine learning model and TF-IDF vectorization |
+| Pandas | Dataset loading and manipulation |
+| Streamlit | Interactive web application |
+| Pickle | Model serialization |
+| Unittest | Automated model testing |
+| Git & GitHub | Version control and collaboration |
+
+## 🧠 How It Works
+
+The application follows a traditional machine learning-based NLP pipeline:
+
+**User Text → TF-IDF Vectorization → Logistic Regression → Sentiment Prediction**
+
+### 1. Dataset Preparation
+
+The model is trained using a small labeled dataset containing three sentiment categories:
+
+- Positive
+- Negative
+- Neutral
+
+The initial dataset contains 45 labeled text examples, with 15 examples per sentiment class.
+
+### 2. Feature Extraction
+
+TF-IDF (Term Frequency–Inverse Document Frequency) transforms text into numerical features based on the importance of words within the dataset.
+
+### 3. Model Training
+
+A Logistic Regression classifier learns relationships between text features and their corresponding sentiment labels.
+
+### 4. Sentiment Prediction
+
+When users enter text into the application, the trained model predicts a sentiment category and produces class probabilities.
+
+### 5. Streamlit Interface
+
+The Streamlit application provides an interactive interface for entering text and viewing the model's predictions.
+
+---
+
+## 📂 Project Structure
 
 ```text
-ai-sentiment-analyzer/
-â”œâ”€â”€ app.py
-â”œâ”€â”€ train_model.py
-â”œâ”€â”€ dataset.csv
-â”œâ”€â”€ sentiment_model.pkl
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ README.md
-â””â”€â”€ .gitignore
-
